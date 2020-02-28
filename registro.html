@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/cca8aa3167.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Crear cuenta</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+
+<body>
+    <div id="overlay" class="overlay">
+    </div>
+    <nav>
+        <div id="logo" class="logo">
+            <a href="index.html"> <img width="130" src="./assets/img/logo-sellery.png" alt="" /></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#contacto" style="color: black">Contacto</a></li>
+            <li><a href="contacto.html">Conviertete en proveedor</a></li>
+            <li><a href="https://sellery.jonathanfaz.com/" style="color: black; border: 1px solid rgba(0, 0, 0, 0.267)">Inicia sesión</a></li>
+        </ul>
+        <!-- <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div> -->
+    </nav>
+    <div id="app" class="contenedor contenedor-registro">
+        <div class="registro">
+            <div class="title">
+                <h2>Crea tu cuenta en <span style="color: #FF8E3C">Sellery</span></h2>
+                <p>¿Ya tienes cuenta? <a href="contacto.html">Entra aquí </a></p>
+            </div>
+
+            </div>
+            <div id="modal" class="modal">
+                <h2>{{tituloMensaje}}</h2>
+                <h4>{{mensaje}}</h4>
+                <button id="aceptar">Aceptar</button>
+            </div>
+        </div>
+
+        <div id="contacto" class="footer">
+            <div class="contacto">
+                <div class="logo">
+                    <img src="./assets/img/logo-sellery.png" alt="">
+                </div>
+                <div class="contact-info">
+                    <h3>Contacto</h3>
+                    <p>Centro de ayuda</p>
+                    <p><a style="text-decoration: none;" href="tel:(81) 1908 2421">(81) 1908 2421</a></p>
+                    <p><a style="text-decoration: none;" href="mailto:hola@sellery.com.mx">hola@sellery.com.mx</a></p>
+                </div>
+                <div class="social-media">
+                    <h3>Redes</h3>
+                    <a style="color: gray;" target="_blank" href="https://www.facebook.com/sellery.mx"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a style="color: gray;" target="_blank" href="https://www.instagram.com/sellery_mx/"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="info">
+                <div class="legal">
+                    <p>Terminos y Condiciones | Aviso de Privacidad</p>
+                </div>
+                <div class="sellery">
+                    <p>Sellery 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.6.0/firebase.js"></script>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
